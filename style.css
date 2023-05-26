@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Roboto+Mono&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: hsl(212, 45%, 89%);
+}
+.container
+{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 576px;
+    border-radius: 30px;
+    /* display: flex; */
+    
+
+}
+img{
+    border-radius: 40px;
+}
+.qr
+{
+    margin: 28px;
+    display: flex;
+    flex-direction: column;
+}
+.content
+{
+    display: block;
+}
+.p1{
+    font-weight:bold;
+    margin: 30px;
+    font-size: 30px;
+    text-align:center;
+    color: hsl(0, 0%, 0%);
+}
+div p{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+    color:gray;
+    padding: 40px;
+
+}
+.attribution { font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    top: 99%;
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
